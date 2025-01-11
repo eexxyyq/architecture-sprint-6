@@ -1,0 +1,49 @@
+{
+  "data": {
+    "client": {
+      "id": "123",
+      "name": "John Doe",
+      "age": 35
+    }
+  }
+}
+
+{
+  "data": {
+    "clientDocuments": [
+      {
+        "id": "doc1",
+        "type": "Passport",
+        "number": "123456789",
+        "issueDate": "2020-01-01",
+        "expiryDate": "2030-01-01"
+      },
+      {
+        "id": "doc2",
+        "type": "Driving License",
+        "number": "DL123456",
+        "issueDate": "2018-05-15",
+        "expiryDate": "2028-05-15"
+      }
+    ]
+  }
+}
+
+{
+  "data": {
+    "clientRelatives": [
+      {
+        "id": "rel1",
+        "relationType": "Father",
+        "name": "John Sr.",
+        "age": 60
+      },
+      {
+        "id": "rel2",
+        "relationType": "Mother",
+        "name": "Jane Doe",
+        "age": 58
+      }
+    ]
+  }
+}
