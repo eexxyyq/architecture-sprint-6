@@ -23,3 +23,8 @@
 [Описание решения](Exc3/Readme.md)
 
 [Итоговая схема](Exc3/InsureTech_C4_%D1%81ontainer-diagram.drawio.xml)
+
+## Задание 4. Проектирование продажи ОСАГО
+[Описание решения](Exc4/Readme.md)
+
+[Итоговая схема](Exc4/InsureTech_C4_%D1%81ontainer-diagram.drawio.xml)
