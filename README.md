@@ -20,3 +20,6 @@
 ![img_2.png](Exc2/img_2.png)
 
 ## Задание 3. Переход на Event-Driven архитектуру
+[Описание решения](Exc3/Readme.md)
+
+[Итоговая схема](Exc3/InsureTech_C4_%D1%81ontainer-diagram.drawio.xml)
