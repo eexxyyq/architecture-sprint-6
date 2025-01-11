@@ -1,0 +1,29 @@
+# Получить информацию о клиенте с ID "123"
+query {
+  client(id: "123") {
+    id
+    name
+    age
+  }
+}
+
+# Получить документы клиента с ID "123"
+query {
+  clientDocuments(id: "123") {
+    id
+    type
+    number
+    issueDate
+    expiryDate
+  }
+}
+
+# Получить родственников клиента с ID "123"
+query {
+  clientRelatives(id: "123") {
+    id
+    relationType
+    name
+    age
+  }
+}

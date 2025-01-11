@@ -1,0 +1,40 @@
+# Схема GraphQL
+
+# Типы данных
+type Client {
+  id: String
+  name: String
+  age: Int
+}
+
+type Document {
+  id: String
+  type: String
+  number: String
+  issueDate: String
+  expiryDate: String
+}
+
+type Relative {
+  id: String
+  relationType: String
+  name: String
+  age: Int
+}
+
+# Запросы (Queries)
+type Query {
+  # Получение клиента по ID
+  client(id: String!): Client
+
+  # Получение списка документов клиента по ID
+  clientDocuments(id: String!): [Document]
+
+  # Получение информации о родственниках клиента по ID
+  clientRelatives(id: String!): [Relative]
+}
+
+# Описание схемы
+schema {
+  query: Query
+}
